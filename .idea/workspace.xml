@@ -64,8 +64,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/stepDefinition" />
       <recent name="$PROJECT_DIR$/src/main/java/differentLoginFeatures" />
+      <recent name="$PROJECT_DIR$/TestDemo/DemoRepositiory" />
+      <recent name="$PROJECT_DIR$/src/main/java/stepDefinition" />
       <recent name="$PROJECT_DIR$/TestDemo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -198,26 +199,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1590688267250" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590698174932">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590701825210">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590698174932" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590698174931">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590701825210" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590701825209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590698174931" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590698174931">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590701825209" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590701825209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590698174931" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590698174932">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590701825209" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590701825210">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590698174932" />
-    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1590688346738">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590701825210" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1590698598650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1590688346738" />
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1590698598650" />
     <state x="221" y="63" key="SettingsEditor" timestamp="1590686136547">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

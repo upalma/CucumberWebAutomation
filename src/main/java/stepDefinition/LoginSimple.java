@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class StepDefinition {
+public class LoginSimple {
 WebDriver driver = null;
     @Given("^user is in login Page$")
     public void user_is_in_login_Page()  {

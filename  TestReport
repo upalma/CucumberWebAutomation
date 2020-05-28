@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login in test",
+        "description": "",
+        "id": ";login-in-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4487150293,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is in login Page",
+            "match": {
+              "location": "StepDefinition.user_is_in_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 479891174,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12515018341,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify user successfully login",
+            "match": {
+              "location": "StepDefinition.verify_user_successfully_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109141586,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "exit the browser",
+            "match": {
+              "location": "StepDefinition.exit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "/Users/palmauzzal/CucumberAutomation/src/main/java/features/Login.feature"
+  }
+]

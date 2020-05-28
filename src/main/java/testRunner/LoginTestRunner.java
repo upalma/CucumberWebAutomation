@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features    = "/Users/palmauzzal/CucumberAutomation/src/main/java/differentLoginFeatures/LoginWithData.feature"
-        , glue        = {"stepDefinition"}
-        , dryRun      = false
+        features    = "/Users/palmauzzal/CucumberAutomation/src/main/java/differentLoginFeatures/LoginWithDataInFeatureBody.feature"
+        , glue        = {"steps"}
+       , dryRun      = false
         , monochrome  = true
         ,format = {"pretty", "html:TestResult", "json: TestReport"}
 )

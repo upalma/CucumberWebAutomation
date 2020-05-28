@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/palmauzzal/CucumberAutomation/src/main/java/differentLoginFeatures/LoginWithData.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/palmauzzal/CucumberAutomation/src/main/java/differentLoginFeatures/LoginWithDataInFeatureBody.feature");
 formatter.feature({
   "line": 1,
   "name": "Facebook Login",
@@ -6,144 +6,82 @@ formatter.feature({
   "id": "facebook-login",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "line": 3,
-  "name": "Facebook Login under test",
-  "description": "",
-  "id": "facebook-login;facebook-login-under-test",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "user is already login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "user enters \"\u003cusername\u003e\" user enters \"\u003cpassword\u003e\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "user clicks on login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "verify user successfully login on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "close the browser",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 10,
-  "name": "",
-  "description": "",
-  "id": "facebook-login;facebook-login-under-test;",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 11,
-      "id": "facebook-login;facebook-login-under-test;;1"
-    },
-    {
-      "cells": [
-        "palma_ub13@gmail.com",
-        "abcdefghigj"
-      ],
-      "line": 12,
-      "id": "facebook-login;facebook-login-under-test;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
 formatter.scenario({
-  "line": 12,
-  "name": "Facebook Login under test",
+  "line": 2,
+  "name": "Facebook Login test scenario",
   "description": "",
-  "id": "facebook-login;facebook-login-under-test;;2",
+  "id": "facebook-login;facebook-login-test-scenario",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 4,
+  "line": 3,
   "name": "user is already login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
-  "name": "user enters \"palma_ub13@gmail.com\" user enters \"abcdefghigj\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
+  "line": 4,
+  "name": "user enters \"palma_ub13@yahoo.com\" user enters \"abcedadjkfdj\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 6,
+  "line": 5,
   "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 7,
+  "line": 6,
   "name": "verify user successfully login on home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginWithData.user_is_already_login_page()"
+  "location": "LoginDataInBody.user_is_already_login_page()"
 });
 formatter.result({
-  "duration": 4063926565,
+  "duration": 4062962392,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "palma_ub13@gmail.com",
+      "val": "palma_ub13@yahoo.com",
       "offset": 13
     },
     {
-      "val": "abcdefghigj",
+      "val": "abcedadjkfdj",
       "offset": 48
     }
   ],
-  "location": "LoginWithData.user_enters_user_enters(String,String)"
+  "location": "LoginDataInBody.user_enters_user_enters(String,String)"
 });
 formatter.result({
-  "duration": 367977095,
+  "duration": 329488223,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginWithData.user_clicks_on_login_button()"
+  "location": "LoginDataInBody.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 136256383,
+  "duration": 156788965,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginWithData.verify_user_successfully_login_on_home_page()"
+  "location": "LoginDataInBody.verify_user_successfully_login_on_home_page()"
 });
 formatter.result({
-  "duration": 3063945109,
+  "duration": 9737994126,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginWithData.close_the_browser()"
+  "location": "LoginDataInBody.close_the_browser()"
 });
 formatter.result({
-  "duration": 100455534,
+  "duration": 102418653,
   "status": "passed"
 });
 });
